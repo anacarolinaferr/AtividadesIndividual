@@ -2,7 +2,7 @@ package com.atividadesindividual.Exercicio2;
 
 import java.util.Scanner;
 
-public class Main {
+public class ManipulaStrings {
 
     public static void main(String[] args) {
         String nome;

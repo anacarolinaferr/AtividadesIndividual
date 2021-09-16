@@ -1,4 +1,4 @@
-package com.atividadesindividual.Execicio1;
+package com.atividadesindividual.Exercicio1;
 
 public class Pessoa {
     private String nome;

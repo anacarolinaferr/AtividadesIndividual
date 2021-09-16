@@ -1,4 +1,4 @@
-package com.atividadesindividual.Execicio1;
+package com.atividadesindividual.Exercicio1;
 
 import java.util.ArrayList;
 import java.util.List;

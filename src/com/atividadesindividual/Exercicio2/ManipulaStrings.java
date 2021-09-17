@@ -15,8 +15,7 @@ public class ManipulaStrings {
 
     public static void inverteString(String nome){
         String nomeIn = nome.toUpperCase();
-        StringBuilder invertido = new StringBuilder(nomeIn).reverse();
-        System.out.println(invertido);
+        System.out.println(new StringBuilder(nomeIn).reverse());
     }
 
     public static void palindromo(String nome){

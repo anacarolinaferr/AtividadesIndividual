@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Atividade Individual - Exercício 3">
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Main.java" afterDir="false" />
+    <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Atividade Individual - Exercício 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -91,7 +92,7 @@
     <property name="project.structure.proportion" value="0.25692308" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.ManipulaStrings">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atividadesindividual.Exercicio5.Main" />
       <module name="AtividadesIndividual" />
@@ -154,22 +155,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManipulaStrings" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Retangulo" />
-        <item itemvalue="Application.ManipulaStrings" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -184,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1631796225267</updated>
       <workItem from="1631796243013" duration="3000" />
-      <workItem from="1631796281927" duration="20266000" />
+      <workItem from="1631796281927" duration="20803000" />
+      <workItem from="1631900613549" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Individual - Exercício 1">
       <created>1631803718777</created>
@@ -221,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631829680389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Atividade Individual - Exercício 5">
+      <created>1631842551408</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631842551408</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Atividade Individual - Exercício 5">
+      <created>1631842563102</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631842563102</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,11 +255,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atividade Individual - Exercício 1" />
     <MESSAGE value="Atividade Individual - Exercício 2" />
     <MESSAGE value="Atividade Individual - Exercício 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade Individual - Exercício 3" />
+    <MESSAGE value="Atividade Individual - Exercício 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade Individual - Exercício 5" />
   </component>
 </project>

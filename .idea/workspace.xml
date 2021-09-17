@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Atividade Individual - Exercício 5">
-      <change beforePath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio2/ManipulaStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio2/ManipulaStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nomes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/ArquivoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Persistivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/PessoaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +97,26 @@
     <property name="project.structure.proportion" value="0.25692308" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ManipulaStrings">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atividadesindividual.Exercicio5.Main" />
       <module name="AtividadesIndividual" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atividadesindividual.Exercicio5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atividadesindividual.Exercicio4.Main" />
+      <module name="AtividadesIndividual" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atividadesindividual.Exercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.ManipulaStrings" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Retangulo" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +206,7 @@
       <updated>1631796225267</updated>
       <workItem from="1631796243013" duration="3000" />
       <workItem from="1631796281927" duration="20803000" />
-      <workItem from="1631900613549" duration="2002000" />
+      <workItem from="1631900613549" duration="13637000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Individual - Exercício 1">
       <created>1631803718777</created>
@@ -246,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631902596936</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Atividade Individual - Exercício 5">
+      <created>1631902742063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631902742063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atividade Individual - Exercício 5">
+      <created>1631902852649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631902852649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

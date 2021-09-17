@@ -14,7 +14,7 @@ public class ManipulaStrings {
     }
 
     public static void inverteString(String nome){
-        String nomeIn = nome.replace("","").toUpperCase();
+        String nomeIn = nome.toUpperCase();
         StringBuilder invertido = new StringBuilder(nomeIn).reverse();
         System.out.println(invertido);
     }

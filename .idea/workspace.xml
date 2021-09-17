@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Atividade Individual - Exercício 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio2/ManipulaStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio2/ManipulaStrings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +188,7 @@
       <updated>1631796225267</updated>
       <workItem from="1631796243013" duration="3000" />
       <workItem from="1631796281927" duration="20803000" />
-      <workItem from="1631900613549" duration="1689000" />
+      <workItem from="1631900613549" duration="2002000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Individual - Exercício 1">
       <created>1631803718777</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631842563102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Atividade Individual - Exercício 5">
+      <created>1631902596935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631902596936</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

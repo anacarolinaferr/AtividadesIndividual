@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Atividade Individual - Exercício 5">
-      <change afterPath="$PROJECT_DIR$/nomes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/ArquivoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Persistivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/PessoaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AtividadesIndividual.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/ValidaCPF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nomes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nomes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio1/Agenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio1/Agenda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio3/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio3/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/ArquivoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/ArquivoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Persistivel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Persistivel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/PessoaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/PessoaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +34,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1yDpslOZLjqoF8hUk0UD4rQM4O8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -93,11 +110,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.25692308" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atividadesindividual.Exercicio5.Main" />
       <module name="AtividadesIndividual" />
@@ -124,12 +142,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atividadesindividual.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atividadesindividual.Exercicio1.Main" />
       <module name="AtividadesIndividual" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atividadesindividual.Exercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.ManipulaStrings" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Retangulo" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +227,13 @@
       <updated>1631796225267</updated>
       <workItem from="1631796243013" duration="3000" />
       <workItem from="1631796281927" duration="20803000" />
-      <workItem from="1631900613549" duration="13637000" />
+      <workItem from="1631900613549" duration="13979000" />
+      <workItem from="1631987776412" duration="6000" />
+      <workItem from="1631988258996" duration="19000" />
+      <workItem from="1631988305651" duration="2423000" />
+      <workItem from="1632092586923" duration="649000" />
+      <workItem from="1632146225532" duration="3920000" />
+      <workItem from="1632237968535" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Individual - Exercício 1">
       <created>1631803718777</created>
@@ -278,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631902852649</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Atividade Individual - Exercício 5">
+      <created>1631917986677</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631917986677</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,5 +336,26 @@
     <MESSAGE value="Atividade Individual - Exercício 3" />
     <MESSAGE value="Atividade Individual - Exercício 5" />
     <option name="LAST_COMMIT_MESSAGE" value="Atividade Individual - Exercício 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/ValidaCPF.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

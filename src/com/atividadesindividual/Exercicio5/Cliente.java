@@ -17,25 +17,25 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    public static boolean nomeValido(String nome){
-        boolean resultado = (nome.length()>3 && nome.length()<50)? true : false;
+    public static boolean nomeValido(String nome) {
+        boolean resultado = (nome.length() > 3 && nome.length() < 50) ? true : false;
         return resultado;
     }
 
-    public static boolean cpfValido(String cpf ){
-        String cpf_sem_mask = cpf.replace(".","").replace("-","");
-        boolean resultado = (cpf_sem_mask.length()==11)? true : false;
+    public static boolean cpfValido(String cpf) {
+        ValidaCPF validaCPF = new ValidaCPF();
+        boolean resultado = validaCPF.isCPF(cpf);
         return resultado;
     }
 
-    public static boolean emailValido(String email){
+    public static boolean emailValido(String email) {
         boolean resultado = (email.contains("@")) ? true : false;
         return resultado;
     }
 
-    public static boolean telefoneValido(String telefone){
-        String telefone_sem_mask = telefone.replace(" ","").replace("-","");
-        boolean resultado = (telefone_sem_mask.length()==11)? true : false;
+    public static boolean telefoneValido(String telefone) {
+        String telefone_sem_mask = telefone.replace(" ", "").replace("-", "");
+        boolean resultado = (telefone_sem_mask.length() == 11) ? true : false;
         return resultado;
     }
 

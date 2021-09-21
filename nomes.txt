@@ -1,6 +1,2 @@
-Thiago;Maria;Alexandre;Normandes;João
-Alexandre
-João
-Maria
-Normandes
-Thiago
+Ana;Rafael;Alessandro;Wagner;Wesley
+Alessandro;Ana;Rafael;Wagner;Wesley;

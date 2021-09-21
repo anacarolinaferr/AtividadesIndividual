@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PessoaDAO implements Persistivel<Pessoa>{
+public class PessoaDAO implements Persistivel<Pessoa> {
 
     private File file;
     private ArquivoUtil arquivoUtil;
@@ -13,6 +13,19 @@ public class PessoaDAO implements Persistivel<Pessoa>{
     public PessoaDAO(String arquivo) {
         file = new File(arquivo);
         arquivoUtil = new ArquivoUtil(file);
+    }
+
+//    public PessoaDAO(String arquivo, Boolean append){
+//        if(append){
+//            file = new File(arquivo);
+//            arquivoUtil = new ArquivoUtil(file, append);
+//        }else{
+//
+//        }
+//    }
+
+    public void fecha(){
+        arquivoUtil.fechaArquivo();
     }
 
     @Override
@@ -59,7 +72,7 @@ public class PessoaDAO implements Persistivel<Pessoa>{
         return pessoa;
     }
 
-    public List<Pessoa> ordenaPorNome(List<Pessoa> pessoa){
+    public List<Pessoa> ordenaPorNome(List<Pessoa> pessoa) {
         pessoa.sort((Pessoa a, Pessoa b) -> a.getNome().compareTo(b.getNome()));
         return pessoa;
     }

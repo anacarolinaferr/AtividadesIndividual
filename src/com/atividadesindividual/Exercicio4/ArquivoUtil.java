@@ -12,14 +12,13 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class ArquivoUtil{
+public class ArquivoUtil {
 
     private File file;
     private BufferedWriter bw;
     private BufferedReader br;
 
-    public ArquivoUtil(File file){
+    public ArquivoUtil(File file) {
         this.file = file;
         FileOutputStream fos;
         FileInputStream fis;
@@ -37,13 +36,30 @@ public class ArquivoUtil{
         }
     }
 
-    public void escreve(String registro) throws IOException{
-        bw.write(registro);
-        bw.newLine();
+//    public ArquivoUtil(File file, Boolean append){
+//        this.file = file;
+//        FileOutputStream fos;
+//        FileInputStream fis;
+//        try {
+//            fos = new FileOutputStream(this.file, append);
+//            OutputStreamWriter osw = new OutputStreamWriter(fos);
+//            bw = new BufferedWriter(osw);
+//
+//            fis = new FileInputStream(this.file);
+//            InputStreamReader isr = new InputStreamReader(fis);
+//            br = new BufferedReader(isr);
+//
+//        } catch (FileNotFoundException e) {
+//            System.out.println("Erro ao conectar ao arquivo");
+//        }
+//    }
+
+    public void escreve(String registro) throws IOException {
+        bw.write(registro+";");
     }
 
-    public List<String> escreve(List<String> registros) throws IOException{
-
+    public List<String> escreve(List<String> registros) throws IOException {
+        bw.newLine();
         registros.forEach(registro -> {
             try {
                 escreve(registro);
@@ -51,23 +67,22 @@ public class ArquivoUtil{
                 e.printStackTrace();
             }
         });
-        bw.newLine();
         return registros;
     }
 
-    public void fechaArquivo(){
+    public void fechaArquivo() {
         try {
             bw.close();
-        }catch(IOException e) {
+        } catch (IOException e) {
             System.out.println("deu pau");
         }
     }
 
     public List<String> retornaRegistros() throws IOException {
         List<String> registros = new ArrayList<String>();
-        while(true) {
+        while (true) {
             String linha = br.readLine();
-            if(linha==null) {
+            if (linha == null) {
                 break;
             }
             registros.add(linha);

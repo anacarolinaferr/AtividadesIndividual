@@ -10,6 +10,8 @@ public class Main {
         List<Pessoa> pessoasCadastrados = pessoaDAO.listagem();
         pessoasCadastrados.forEach(System.out::println);
 
+        //pessoaDAO.fecha();
+
         pessoaDAO.ordenaPorNome(pessoasCadastrados);
         System.out.println(pessoasCadastrados);
 

@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Atividade Individual - Exercício 5">
-      <change afterPath="$PROJECT_DIR$/src/AtividadesIndividual.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/ValidaCPF.java" afterDir="false" />
+    <list default="true" id="1e77959e-b619-4980-a133-28058b122837" name="Default Changelist" comment="Melhorando - Exercícios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nomes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nomes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio1/Agenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio1/Agenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio2/ManipulaStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio3/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio3/Retangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/ArquivoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/ArquivoUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Persistivel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/Persistivel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/PessoaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio4/PessoaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Exercicio5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atividadesindividual/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atividadesindividual/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio5/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio5/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtividadesIndividual/com/atividadesindividual/Exercicio5/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,19 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
@@ -233,7 +207,8 @@
       <workItem from="1631988305651" duration="2423000" />
       <workItem from="1632092586923" duration="649000" />
       <workItem from="1632146225532" duration="3920000" />
-      <workItem from="1632237968535" duration="3352000" />
+      <workItem from="1632237968535" duration="3661000" />
+      <workItem from="1632325060278" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Individual - Exercício 1">
       <created>1631803718777</created>
@@ -312,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631917986677</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Melhorando - Exercícios">
+      <created>1632244899549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632244899549</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +317,8 @@
     <MESSAGE value="Atividade Individual - Exercício 2" />
     <MESSAGE value="Atividade Individual - Exercício 3" />
     <MESSAGE value="Atividade Individual - Exercício 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade Individual - Exercício 5" />
+    <MESSAGE value="Melhorando - Exercícios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhorando - Exercícios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
